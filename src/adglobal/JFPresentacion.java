@@ -13,7 +13,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-import javafx.scene.control.ComboBox;
+//import javafx.scene.control.ComboBox;
 import java.util.ArrayList;
 
 /**
@@ -251,7 +251,7 @@ public class JFPresentacion extends javax.swing.JFrame {
            
             conexion = DriverManager.getConnection(url, user, password);
             if (jRadioButton1.isSelected()) {
-                ADGlobal.crea_bd(conexion);
+//                ADGlobal.crea_bd(conexion);
             }
             /*
              * Inserción de datos en cada tabla. 
@@ -264,7 +264,7 @@ public class JFPresentacion extends javax.swing.JFrame {
              */
             if (jRadioButton2.isSelected()) 
             {
-                  ADGlobal.inserta_usu(conexion);
+//                  ADGlobal.inserta_usu(conexion);
 //                ADGlobal.inserta_notas(conexion);
             }
 //            /*
@@ -295,7 +295,7 @@ public class JFPresentacion extends javax.swing.JFrame {
 
             Object selectedValue = JOptionPane.showInputDialog(null,"Escoge", "Escoge",JOptionPane.QUESTION_MESSAGE, null,possibleValues, possibleValues[0]);
 
-                ADGlobal.modifica_usu(conexion,String.valueOf(selectedValue));
+ //               ADGlobal.modifica_usu(conexion,String.valueOf(selectedValue));
 //                 Object[] possibleValues = { "Inserta dos cursos", "Probar procd.Inserta + de 30 alumnos", "Insertar asignaturas" ,"Insertar notas" };
 //                Object selectedValue = JOptionPane.showInputDialog(null,"Choose one", "Input", JOptionPane.INFORMATION_MESSAGE, null,possibleValues, possibleValues[0]);
 //                if ((String.valueOf(selectedValue)).compareTo("Inserta dos cursos")==0) {
@@ -320,7 +320,7 @@ public class JFPresentacion extends javax.swing.JFrame {
 //                //personas. Crea una vista para ello.
             if (jRadioButton4.isSelected()) //consultas
             {
-                ADGlobal.consulta_usu(conexion); 
+//                ADGlobal.consulta_usu(conexion); 
 //               Object[] possibleValues = { "Consultar usuarios"};
 //               Object selectedValue = JOptionPane.showInputDialog(null,"Escoge", "Escoge",JOptionPane.QUESTION_MESSAGE, null,possibleValues, possibleValues[0]);
 //               //System.out.println(selectedValue);
@@ -389,7 +389,7 @@ public class JFPresentacion extends javax.swing.JFrame {
                     
                     eleccion=JOptionPane.showConfirmDialog(null, "¿seguro que deseas eliminar el usuario?");
                     if (eleccion==0) {
-                       ADGlobal.elimina_usu(conexion, usuario);
+//                       ADGlobal.elimina_usu(conexion, usuario);
                    }
                 
 //               Object[] possibleValues = { "Modifica Datos Alumno", "Modifica Nota Alumno", "Elimina alumno","Elimina curso","Elimina asignatura" };
