@@ -4,6 +4,8 @@
  */
 package adglobal;
 
+//Ejemplo control de versiones
+
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
