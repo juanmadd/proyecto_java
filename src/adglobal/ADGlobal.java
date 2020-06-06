@@ -5,7 +5,7 @@
 package adglobal;
 
 //Ejemplo commit
-//Ejemplo commit2
+
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
