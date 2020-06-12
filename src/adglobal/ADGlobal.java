@@ -4,7 +4,7 @@
  */
 package adglobal;
 
-//Modificado2
+//Codigo modificado para comprobar el control de versiones
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
