@@ -329,7 +329,7 @@ d. Inserta las asignaturas de cada curso.
         }
    }
    
-   public static void main(String[] args) 
+   public static void main_error(String[] args) 
    {
         try {
             Connection conexion = null;
