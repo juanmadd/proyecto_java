@@ -30,7 +30,9 @@ public class ADGlobal
    /* parámetros de conexión con la base de datos MySql */
    private static final String url = "jdbc:mysql://localhost:3306/login";
    private static final String user = "root";
-   private_error static final String password = "123456";
+   private static final String password = "123456";
+   
+   //Comprobar control de versiones
    
    //Ejemplo
          
